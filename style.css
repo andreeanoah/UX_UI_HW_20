@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+  font-size: 18px;
+}
+.navbar{
+  display: inline-block;
+  vertical-align: top;
+}
+.logo{
+  width: 23%;
+  padding: 1%;
+  text-align: center;
+  text-align: center;
+}
+.navbar{
+  width: 73%;
+  padding: 1%;
+}
+.navbar ul{
+  flex:1;
+  text-align: right;
+  width: 50%;
+  margin-left: auto;
+}
+.navbar ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 25px;
+  text-decoration: none;
+  color: #000;
+  padding: 0 10px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #000;
+  padding: 0 10px;
+  position: relative;
+}
+.navbar ul li a::after{
+  content: '';
+  width: 0;
+  height: 10px;
+  background: #000000;
+  position: absolute;
+  left: 50%;
+  transition: translateX(-50%);
+  top: -55px;
+  transition: 0.5s;
+}
+.navbar ul li a:hover::after{
+  width: 100%;
+}
+.banner h1{
+  padding-left: 40px;
+  font-size: 32px;
+}
+.banner h2{
+  padding-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 24px;
+}
+.banner p{
+  padding-left: 40px;
+}
+button{
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 15px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 40px;
+  margin-top: 40px;
+  width: 200px;
+  align-items: center;
+}
+button a{
+  text-decoration: none;
+}
+.class active{
+  color: #A8DADC !important;
+}
+.footer p{
+  padding: 20px 20px 20px 20px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  }
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #ffffff;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: .3s;
+}
+.left .content .social a span:hover{
+  background: #f12020;
+}
+span{
+  color: #2a9d8f;
+  font-size: 32px;
+}
+a:link{
+  color:grey;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color: red;
+}
+img{
+  border-radius: 10px;
+}
