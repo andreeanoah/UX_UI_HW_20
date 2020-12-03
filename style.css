@@ -68,8 +68,7 @@
   padding-left: 40px;
 }
 button{
-  background-color: #000000;
-  color: white;
+  background-color: #D3D3D3;
   border: none;
   border-radius: 10px;
   padding: 15px 15px;
@@ -138,13 +137,13 @@ span{
   font-size: 32px;
 }
 a:link{
-  color:#ffffff;
+  color:#000000;
 }
 a:visited{
-  color: grey;
+  color: #000000;
 }
 a:hover{
-  color: red;
+  color: #D3D3D3;
 }
 img{
   border-radius: 10px;
@@ -167,4 +166,13 @@ ul li{
 }
 ul li a{
   color: #000000;
+}
+container li a{
+  color: #000000;
+}
+.card-deck{
+    padding-left: 40px;
+}
+#top{
+  padding-left: 40px;
 }
