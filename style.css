@@ -138,14 +138,33 @@ span{
   font-size: 32px;
 }
 a:link{
-  color:grey;
+  color:black;
 }
 a:visited{
-  color: white;
+  color: grey;
 }
 a:hover{
   color: red;
 }
 img{
   border-radius: 10px;
+}
+h2{
+  align: center;
+}
+.card{
+    width: 20px;
+    color: black;
+    background-color: none;
+}
+.jump{
+  color: black;
+}
+ul li{
+  list-style: none;
+  color: #000000;
+  padding-left: 40px;
+}
+ul li a{
+  color: #000000;
 }
